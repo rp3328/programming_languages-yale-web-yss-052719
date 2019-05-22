@@ -9,7 +9,7 @@ def reformat_languages(languages)
         new_hash[lname][:type] = []
       end
 
-      new_hash[lname][:type] << type
+      new_hash[lname][:type] << name
     end
   end
   new_hash
