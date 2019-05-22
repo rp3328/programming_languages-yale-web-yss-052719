@@ -6,10 +6,10 @@ def reformat_languages(languages)
     name.each do |lname, info|
       if new_hash[lname] == nil
         new_hash[lname] = info
-        new_hash[lname][:type] = []
+        new_hash[lname][:style] = []
       end
 
-      new_hash[lname][:type] << name
+      new_hash[lname][:style] << type
     end
   end
   new_hash
